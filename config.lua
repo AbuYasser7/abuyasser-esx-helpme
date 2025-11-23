@@ -9,19 +9,19 @@ Config = {}
 
 Config.Commands = {
     ["خارج"] = {
-        webhook = "https://discord.com/api/webhooks/1442159901899231353/skQcv_DyQ7lScNeKuWkAEZ6cYgt56li-fl3HoCpUEipq3HBFqJsVj0-9SNXqwCQmbSzK",     -- الويبهوك الخاص بأمر /خارج
+        webhook = "PUT_WEBHOOK_URL_HERE_1",     -- الويبهوك الخاص بأمر /خارج
         groups  = { "user", "admin", "superadmin" },
         color   = 16753920                      -- لون الإيمبد (اختياري)
     },
 
     ["تخريب"] = {
-        webhook = "https://discord.com/api/webhooks/1442159901899231353/skQcv_DyQ7lScNeKuWkAEZ6cYgt56li-fl3HoCpUEipq3HBFqJsVj0-9SNXqwCQmbSzK",     -- الويبهوك الخاص بأمر /تخريب
+        webhook = "PUT_WEBHOOK_URL_HERE_2",     -- الويبهوك الخاص بأمر /تخريب
         groups  = { "admin", "superadmin", "supermod", "modplus", "mod", "trainmod" },
         color   = 16711680                      -- أحمر داكن
     },
 
     ["help"] = {
-        webhook = "https://discord.com/api/webhooks/1442160005028647129/swkkd6Pl9VeBqWXwO-rrvddvm7qHgs5212bfKSX-Wk4FPwKm8VZMRta-Zs-yDFSQU-_9",
+        webhook = "PUT_WEBHOOK_URL_HERE_3",
         groups  = { "user", "admin", "superadmin" },
         color   = 65314                         -- أزرق فاتح
     }
